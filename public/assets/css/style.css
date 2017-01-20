@@ -1,11 +1,31 @@
+body {
+	background-color: #ffe39f; 
+}
+
+img {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
 h1 {
-	margin: auto;
+	color: red;
+	text-align: center;
+}
+
+ol {
+	
 }
 
 li {
-  background: #FAEBD7;
-  margin: 5px;
-  padding: 5px;
+	background-color: #ffffff;
+  	margin: 10px;
+  	padding: 10px;
+}
+
+input {
+	width: 300px;
+	height: 50px;
 }
 
 .label {
@@ -13,28 +33,32 @@ li {
 }
 
 .create-update-form {
-  background: aqua;
 }
 
 .form-group {
+	background: #ffffff;
   margin-bottom: 5px;
 }
 
-.add {
-	margin-right: 700px;
-	margin-left: 700px;
-  	padding: 5px;
-	clear:both;
+.items {
+	margin: 0 auto;
+  	width: 775px;
 }
 
 .menu {
-	background-color: orange;
-	margin-left: 300px;
+	margin-right: 40px;
+	float: left;
+}
+
+.add {
 	float: left;
 }
 
 .eaten {
-	background-color: yellow;
-	margin-right: 300px;
-	float: right;
+	margin-left: 40px;
+	float: left;
+}
+
+.btn {
+	text-align: center;
 }
